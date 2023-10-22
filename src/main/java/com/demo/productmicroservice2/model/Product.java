@@ -9,9 +9,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.GenerateValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+//import javax.persistence.GenerateValue;
+//import javax.persistence.GenerationType;
+//import javax.persistence.Id;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @ToString

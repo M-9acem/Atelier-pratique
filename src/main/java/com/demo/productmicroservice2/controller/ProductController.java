@@ -21,7 +21,7 @@ public class ProductController {
         return products;
     }
 
-    @GetMapping( value = "product/{id}");
+    @GetMapping(value = "/product/{id}")
     public Optional<Product> getAProduct(@PathVariable int id) {
         Optional<Product> product = productDao.findById(id);
         return product;
